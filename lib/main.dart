@@ -34,7 +34,7 @@ class _MapAppState extends State<MapApp> {
         FlutterMap(
           options: MapOptions(
             onTap: (tapPosition, point) => print(tapPosition),
-            center: LatLng(51.5, -0.09),
+            center: LatLng(-7.93578, 112.61253),
             zoom: 13.0,
           ),
           layers: [
@@ -46,7 +46,7 @@ class _MapAppState extends State<MapApp> {
               Marker(
                 width: 100.0,
                 height: 100.0,
-                point: LatLng(51.5, -0.09),
+                point: LatLng(-7.93578, 112.61253),
                 builder: (ctx) => const Icon(
                   Icons.location_on,
                   color: Colors.red,
